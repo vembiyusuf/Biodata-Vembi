@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+  margin: 60px;
+  border-top: 4px solid slategrey;
+}
+
+.foto-profile {
+  float: right;
+  text-align: center;
+  border: none;
+}
+
+img {
+  margin-bottom: 18px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid gray;
+}
+
+h2 {
+  padding: 60px;
+  text-align: center;
+}
+
+.isi-biodata-diri p {
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+span {
+  font-style: bold;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+table,
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+th {
+  background-color: green;
+}
+
+td {
+  background-color: greenyellow;
+}
+
+.video-kesukaan iframe {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 350px;
+}
